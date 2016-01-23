@@ -1,0 +1,88 @@
+# Setup
+title:             'kemmer consulting'
+tagline:           'Practical Software Engineering in System Architecture & Software Design'
+description:       'Think Rational, Be Concise, Enjoy Work'
+
+disqus_shortname:  hir0protag0nist
+
+reading_time:      true
+words_per_minute:  150
+# url:               'http://kc14.GitHub.io/Pages'
+url:               'http://localhost:4000/Pages'
+baseurl:           '/Pages'
+paginate:          5
+destination:       _site
+
+# sidebar neo/lanyon
+sidebar:           neo
+# if neo:
+sidebartitle:      'Practical Software Engineering'
+navidesciption:    'Contents of kc14'
+excerpt_separator: '<!--more-->'
+
+github:
+  repo: https://github.com/kc14/Pages
+
+menu:
+  - title: 'About'
+    url:   '/about'
+  - title: 'Tags'
+    url:   '/tags'
+  - title: 'Categories'
+    url:   '/categories'
+    type:  'categories'
+  - title: 'Favorites'
+    url: ''
+    submenu:
+      - title: 'Syntax Highlighting Post'
+        url:   '/intro/code-highlighting-post/'
+      - title: 'something'
+        url:   '/categorie/404'
+
+# About/contact
+author:
+  name:  'Frank Kemmer'
+  url:   'https://kc14.github.io/'
+  email: 'kemmer.consulting+kc14@gmail.com'
+
+# Owner/author information
+owner:
+  name:           Frank Kemmer
+  avatar:         avatar.jpg
+  bio:            "Software Engineer in the Dangerous World of ITK"
+  email:	  'kemmer.consulting+kc14@gmail.com'
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        Hiron1st
+  facebook:       
+  github:         
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    +FrankKemmer
+
+gems: [jekyll-paginate]
+
+# Custom vars
+version: 0.2.0
+
+# Permalinks
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:  /:categories/:title/
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-70206821-1
+google_verify:    B_dg_LD4yo1P2B2aN2DvBpLDB6RY1VQx2AqKwgtjlJg
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Berlin
+future:      true
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:   
+
+sass:
+  sass_dir: _sass
+#  style: compressed
