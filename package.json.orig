@@ -1,0 +1,25 @@
+{
+  "name": "my-hpstr-lanyon",
+  "author": "Michael Rose <michael@mademistakes.com>",
+  "homepage": "http://kc14.github.io/pages/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kc14/pages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmistakes/hpstr-jekyll-theme/issues"
+  },
+  "engines": {
+    "node": ">=4.2.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-build-control": "~0.6.1",
+    "grunt-contrib-clean": "~0.7.0",
+    "grunt-contrib-imagemin": "~1.0.0",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-uglify": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-svgmin": "~3.1.2"
+  }
+}
