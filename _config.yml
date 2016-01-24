@@ -3,12 +3,13 @@ title:             'kemmer consulting'
 tagline:           'Practical Software Engineering in System Architecture & Software Design'
 description:       'Think Rational, Be Concise, Enjoy Work'
 
-disqus_shortname:  hir0protag0nist
+# disqus_shortname:  hir0protag0nist
+disqus_shortname:  kc14
 
 reading_time:      true
 words_per_minute:  150
-# url:               'http://kc14.GitHub.io/Pages'
-url:               'http://localhost:4000/Pages'
+url:               'http://kc14.GitHub.io/Pages'
+# url:               'http://localhost:4000/Pages'
 baseurl:           '/Pages'
 paginate:          5
 destination:       _site
@@ -26,6 +27,8 @@ github:
 menu:
   - title: 'About'
     url:   '/about'
+  - title: 'My TiddlyWikis'
+    url:   '/TiddlyWikis'
   - title: 'Tags'
     url:   '/tags'
   - title: 'Categories'
@@ -36,25 +39,25 @@ menu:
     submenu:
       - title: 'Syntax Highlighting Post'
         url:   '/intro/code-highlighting-post/'
-      - title: 'something'
+      - title: 'Something'
         url:   '/categorie/404'
 
 # About/contact
 author:
   name:  'Frank Kemmer'
-  url:   'https://kc14.github.io/'
   email: 'kemmer.consulting+kc14@gmail.com'
 
 # Owner/author information
 owner:
   name:           Frank Kemmer
   avatar:         avatar.jpg
-  bio:            "Software Engineer in the Dangerous World of ITK"
-  email:	  'kemmer.consulting+kc14@gmail.com'
+  url:            'https://kc14.github.io/'
+  bio:            'Software Engineer in the Dangerous World of ITK'
+  email:          'kemmer.consulting+kc14@gmail.com'
   # Social networking links used in footer. Update and remove as you like.
   twitter:        Hiron1st
-  facebook:       
-  github:         
+  facebook:       hir0protag0nist
+  github:         kc14
   stackexchange:  
   linkedin:       
   instagram:      
@@ -62,6 +65,7 @@ owner:
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
   google_plus:    +FrankKemmer
+  disqus:         hir0protag0nist
 
 gems: [jekyll-paginate]
 

@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Setting Up Sparx System's Enterprise Architect 12.x on Mac
+description: "Setup Enterprise Architect 12.x under Mac OS X with CrossOver"
+created: 2016-01-14
+modified: 2016-01-24
+tags: [CASE EA fix CrossOver Mac OS X]
+categories: [software engineering]
 ---
 
 [Sparx System's Enterprise Architect](https://de.wikipedia.org/wiki/Enterprise_Architect)
