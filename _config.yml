@@ -28,7 +28,7 @@ menu:
   - title: 'About'
     url:   '/about'
   - title: 'My TiddlyWikis'
-    url:   'https://github.com/kc14/TiddlyWikis'
+    url:   'redirectTiddlyWikis.html'
   - title: 'Tags'
     url:   '/tags'
   - title: 'Categories'
