@@ -4,7 +4,7 @@ title: "Colophon (publishing) https://en.wikipedia.org/wiki/Colophon_(publishing
 description: "Some information about the publication of this website"
 created: 2016-01-24
 modified: 2016-01-24
-tags: [colophon publishing jekyll blog static HTML disqus]
+tags: [colophon, publishing, jekyll, blog, static, HTML, disqus]
 categories: [publishing]
 ---
 
